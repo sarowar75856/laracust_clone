@@ -110,6 +110,10 @@ h6 {
   font-family: var(--font-primary);
 }
 
+.h100{
+  height: 100% !important;
+}
+
 .portfolio .card {
   background-color: #ede3e314 !important;
 }
@@ -852,6 +856,37 @@ section {
   color: white;
   font-weight: 500;
 }
+
+.hstack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: stretch;
+  background-color: #32344756;
+}
+
+.vstack {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-self: stretch;
+}
+ .hstack:hover{
+  background-color: #ffffff4d;
+ }
+.avatar {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0 !important;
+}
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /*--------------------------------------------------------------
 # About Us Section
 --------------------------------------------------------------*/
